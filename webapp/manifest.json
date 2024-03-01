@@ -39,7 +39,14 @@
 	"rootView": {
 		"viewName": "ui5.walkthrough.view.App",
 		"type": "XML",
-		"id": "app"
+		"id": "app",
+		"resources": {
+		  "css": [
+			{
+			  "uri": "css/style.css"
+			}
+		  ]
+		}
 	}
   }
 }
