@@ -1,18 +1,10 @@
-sap.ui.define([
-    "sap/ui/core/mvc/Controller",
-    "sap/m/MessageToast"
- ], (Controller, MessageToast) => {
-    "use strict";
- 
-    return Controller.extend("ui5.walkthrough.controller.HelloPanel", {
-       onShowHello() {
-          // read msg from i18n model
-          const oBundle = this.getView().getModel("i18n").getResourceBundle();
-          const sRecipient = this.getView().getModel().getProperty("/recipient/name");
-          const sMsg = oBundle.getText("helloMsg", [sRecipient]);
- 
-          // show message
-          MessageToast.show(sMsg);
-       }
-    });
- });
+# App Descriptor
+appTitle=Hello World
+appDescription=A simple walkthrough app that explains the most important concepts of SAPUI5
+
+# Hello Panel
+showHelloButtonText=Say Hello
+helloMsg=Hello {0}
+homePageTitle=Walkthrough
+helloPanelTitle=Hello World
+openDialogButtonText=Say Hello With Dialog
