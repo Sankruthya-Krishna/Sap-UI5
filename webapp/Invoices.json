@@ -3,7 +3,7 @@
         {
             "ProductName": "Pineapple",
             "Quantity": 21,
-            "ExtendedPrice": 87.2,
+            "ExtendedPrice": 8.2,
             "ShipperName": "Fun Inc.",
             "ShippedDate": "2015-04-01T00:00:00",
             "Status": "A"
@@ -11,7 +11,7 @@
         {
             "ProductName": "Milk",
             "Quantity": 4,
-            "ExtendedPrice": 10,
+            "ExtendedPrice": 102,
             "ShipperName": "ACME",
             "ShippedDate": "2015-02-18T00:00:00",
             "Status": "B"
