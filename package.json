@@ -3,10 +3,11 @@
     "version": "1.0.0",
     "description": "The UI5 walkthrough application",
     "scripts": {
-        "start": "ui5 serve -o index.html"
+        "start": "ui5 serve -o test/mockServer.html"
     },
     "devDependencies": {
-        "@ui5/cli": "^3.9.1",
-        "ui5-middleware-simpleproxy": "^3.2.14"
+      "@ui5/cli": "^3",
+      "ui5-middleware-simpleproxy": "^3"
     }
-}
+  }
+  
