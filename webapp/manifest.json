@@ -36,6 +36,11 @@
 		  "sap.m": {}
 		}
 	  },
+	  
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
 	  "routing": {
 		"config": {
 		  "routerClass": "sap.m.routing.Router",

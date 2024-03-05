@@ -34,7 +34,7 @@ sap.ui.define([
             text: "{i18n>productRatingLabelInitial}"
         }).addStyleClass("sapUiSmallMargin"));
         this.setAggregation("_button", new Button({
-            text: "{i18n>productRatingButton}",
+            text: "{i18n>Rating}",
             press: this._onSubmit.bind(this)
         }).addStyleClass("sapUiTinyMarginTopBottom"));
     },
