@@ -14,6 +14,6 @@ sap.ui.define([], () => {
 				default:
 					return sStatus;
 			}
-		}
+		},
 	};
 });
