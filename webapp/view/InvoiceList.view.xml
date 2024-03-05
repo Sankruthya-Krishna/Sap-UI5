@@ -28,7 +28,7 @@
                 title="{invoice>Quantity} x {invoice>ProductName}"
                 number="{
                     parts: [
-                        'invoice>ExtendedPrice',
+                        'invoice>ExTendedPrice',
                         'view>/currency'
                     ],
                     type: 'sap.ui.model.type.Currency',
